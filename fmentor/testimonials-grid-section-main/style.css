@@ -1,0 +1,127 @@
+
+body{
+    font-size: 13px;
+   
+}
+
+    
+.container{
+    margin:50px 100px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+    gap: 10px;
+    box-shadow:5px 5px 5px rgba(110, 110, 110, 0.829);
+}
+.opacity-white{
+    opacity:0.5;
+    margin-top: 20px;
+    
+}
+
+.primeiro-depoimento{
+    padding:10px auto 10px;
+    background-color:hsl(263, 55%, 52%);
+    color:white;
+    grid-column: span 2;
+    border-radius: 8px;
+    padding:30px;
+}
+.segundo-depoimento{
+    background-color:hsl(217, 19%, 35%);
+    color:white;
+    grid-column: span 1;
+    border-radius: 8px;
+    padding:30px;
+    
+}
+.terceiro-depoimento{
+    background-color: hsl(0, 0%, 100%);
+    grid-column: span 1;
+    grid-row: span 2;
+    padding:30px;
+    border-radius: 8px;
+   
+}
+.quarto-depoimento{
+    background-color: hsl(0, 0%, 100%);
+    grid-column: span 1;
+    border-radius: 8px;
+    padding:30px;
+
+}
+.quinto-depoimento{
+    background-color:hsl(219, 29%, 14%);
+    color:white;
+    grid-column: span 2;
+    border-radius: 8px;
+    padding:30px;
+  
+}
+.attribution{
+    border-radius: 8px;
+    grid-column: span 4;
+    padding:30px;
+}
+.image-daniel{
+    border-radius: 50%;
+    display:grid;
+    grid-row:span 2;
+    margin-right:15px;
+}
+.image-jeanette{
+    border-radius: 50%;
+    grid-row:span 2;
+    margin-right:15px;
+}
+.image-patrick{
+    border-radius: 50%;
+    grid-row:span 2;
+    margin-right:15px;
+}
+.image-kira{
+    border-radius: 50%;
+    grid-row:span 2;
+    margin-right:15px;
+}
+.image-jonatan{
+    border-radius: 50%;
+    grid-row:span 2;
+    margin-right:15px;
+}
+.daniel{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+}
+
+.jonatan{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+.kira{
+    
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+}
+
+.janette{
+    
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+}
+
+.patrick{
+    
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+
